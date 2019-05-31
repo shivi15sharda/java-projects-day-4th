@@ -19,6 +19,9 @@ public class University {
 	public boolean addDepartment(Department d) {
 		return departments.add(d);
 	}
+	public void resultDeclared  () {
+		departments.parallelStream().forEach(d->System.out.println("Result agya"));
+	}
 
 	}
 	

@@ -2,7 +2,7 @@ package in.ac.sharda;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Department implements Comparable<Department> {
+public class Department implements Comparable<Department>{
 	
 	private final int id;
 	
@@ -40,7 +40,10 @@ public class Department implements Comparable<Department> {
 	public int compareTo(Department o) {
 		return o.getId()-id;
 	}
-	
-	
 
-}
+	public void resultArrived() {
+		
+			
+		}
+
+	}
